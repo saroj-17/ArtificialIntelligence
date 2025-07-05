@@ -1,5 +1,14 @@
 #DFS and BFS Searching Implementation 
 
+'''
+#        A
+#       /  \
+#      B    C 
+#     /\    /\
+#    D  E  F  G
+#   /\  |
+#  H  K J
+'''
 graph = {
     'A' :['B','C'],
     'B':['D','E'], 
@@ -13,6 +22,7 @@ graph = {
     'J':[], 
     'K':[]
 }
+#DFS and BFS Searching Implementation
 
 #function to print the value in table formatted way 
 def print_table_row(step, node, fringe, visited):
